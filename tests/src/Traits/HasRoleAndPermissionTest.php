@@ -64,6 +64,7 @@ class HasRoleAndPermissionTest extends \TestCase
                     break;
             }
         });
+
         // attach role 0 (without level)
         $user->roles()->attach($roles->get(0));
 

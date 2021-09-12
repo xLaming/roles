@@ -1,6 +1,6 @@
 {
-    "name": "ultraware/roles",
-    "description": "Powerful package for handling roles and permissions in Laravel 5.",
+    "name": "xlaming/roles",
+    "description": "Powerful package for handling roles and permissions in Laravel 6.",
     "abandoned": true,
     "keywords": [
         "roles",
@@ -14,12 +14,18 @@
     "authors": [
         {
             "name": "Ultraware"
+        },
+        {
+            "name": "Paulo Rodrigues"
+        },
+        {
+            "name": "Roman Bičan"
         }
     ],
     "require": {
         "php": ">=7.1.3",
-        "illuminate/support": "5.7.*",
-        "illuminate/database": "5.7.*"
+        "illuminate/support": ">=6.0",
+        "illuminate/database": ">=6.0"
     },
     "autoload": {
         "psr-4": {
@@ -27,12 +33,12 @@
         }
     },
     "require-dev": {
-        "orchestra/testbench": "^3.6",
-        "orchestra/database": "^3.6",
-        "mockery/mockery": "^1.0",
-        "phpunit/phpunit": "~7.0",
-        "satooshi/php-coveralls": "^2.0",
-        "sebastian/environment": "^3.1"
+        "orchestra/testbench": "4.*",
+        "orchestra/database": "4.*",
+        "mockery/mockery": "^1.4",
+        "phpunit/phpunit": "^9.5",
+        "satooshi/php-coveralls": "2.*",
+        "sebastian/environment": "^5.1"
     },
     "autoload-dev": {
         "classmap": [
